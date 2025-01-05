@@ -1,5 +1,5 @@
-* {
-    border: 1px dotted hotpink;
+p {
+    margin: 0;
 }
 
 body {
@@ -28,7 +28,7 @@ body {
     gap: 24px;
 }
 
-.header-links li {
+.hero-subtext, .header-links li {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
@@ -37,40 +37,36 @@ body {
 .hero {
     display: flex;
     justify-content: center;
+    align-items: stretch;
+    padding: 150px;
     background-color: #1F2937;
-    padding: 72px;
+    gap: 24px;
 }
 
-.hero-pt1 {
-    flex: 1 1 0;
+.hero-left {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
+    flex: 1;
+    gap: 8px;
 }
 
-.hero-main-text {
+.hero-header {
     font-size: 48px;
+    color:#f9faf8;
     font-weight: 900;
-    color: #f9faf8;
-    flex: 1 1 auto;
 }
 
-.hero-subtext {
-    font-size: 18px;
-    color:#E5E7EB;
-    flex: 1 1 auto;
-}
 
-.placeholder {
-    flex: 1 1 0;
-    color: #f9faf8;
-    background-color: gray;
+
+.hero-right {
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    background-color: gray;
+    color: #E5E7EB;
 }
+
 
 .signup-button {
     background-color: #3882f6;
@@ -82,6 +78,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 0 0 auto;
 }
 
 .info-section {
