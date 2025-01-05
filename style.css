@@ -1,11 +1,12 @@
 * {
     border: 1px dotted hotpink;
 }
+
 body {
     font-family: Roboto;
     display: flex;
     flex-direction: column;
-    
+    margin: 0;
 }
 
 .header {
@@ -35,7 +36,7 @@ body {
 
 .hero {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     background-color: #1F2937;
     padding: 72px;
 }
@@ -74,14 +75,21 @@ body {
 .signup-button {
     background-color: #3882f6;
     color: #f9faf8; 
+    border: 1px solid #f9faf8;
     padding: 8px;
     width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .info-section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    padding: 36px;
 }
 
 .info-header {
@@ -117,7 +125,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 72px 150px;
+    padding: 36px 150px;
 }
 
 .quote {
@@ -128,4 +136,31 @@ body {
 
 .quote-attr {
     align-self: flex-end;
+}
+
+.signup-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 150px;
+    background-color: #3882f6;
+    color:#f9faf8;
+    align-items: center;
+    padding: 36px;
+}
+
+.signup-pt1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.call-main {
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8
 }
