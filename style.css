@@ -103,8 +103,29 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
 .item-box {
     border: 3px solid #3882f6;
     width: 100px;
     height: 100px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 72px 150px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-attr {
+    align-self: flex-end;
 }
